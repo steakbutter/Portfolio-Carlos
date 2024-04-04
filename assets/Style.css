@@ -1,0 +1,23 @@
+:root {
+    --nothing: rgb(0, 0, 0);
+    --cool-blue: rgb(49, 138, 240);
+    --cool-pink:rgb(255, 62, 191);
+}
+
+.header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--nothing);
+    color: var(--cool-blue)
+}
+.header nav ul li {
+    display: inline-block;
+    padding: 15px;
+
+}
+.header img {
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
