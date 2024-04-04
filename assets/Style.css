@@ -7,6 +7,7 @@
 a {
     cursor: pointer;
     color: var(--cool-blue);
+    font-size: 17px;
 }
 
 .header-main {
@@ -14,7 +15,7 @@ a {
     background-color: var(--nothing);
     color: var(--cool-blue);
     width: 100%;
-    height: 100px;
+    height: 90px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -35,10 +36,16 @@ nav ul li {
     background-color: var(--cool-blue);
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-content: 
-}
+    justify-content: space-evenly;
 
+  
+}
+h2 {
+    font-size: 50px;
+    color: var(--nothing);
+    text-align: center;
+    margin-top: 20px;
+}
 img {
     height: 200px;
 }
