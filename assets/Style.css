@@ -30,6 +30,9 @@ nav ul li {
     display: inline;
     margin: 50px;
 }
+nav a:hover {
+    color: var(--cool-pink);
+}
 
 .body-main {
     font-family: monospace;
