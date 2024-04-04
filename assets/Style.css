@@ -6,6 +6,7 @@
 
 a {
     cursor: pointer;
+    color: var(--cool-blue);
 }
 
 .header-main {
