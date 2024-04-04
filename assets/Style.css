@@ -4,7 +4,7 @@
     --cool-pink:rgb(255, 62, 191);
 }
 
-.header {
+.header-main {
     font-family: monospace;
     background-color: var(--nothing);
     color: var(--cool-blue);
@@ -26,7 +26,12 @@ nav ul li {
 }
 
 .body-main {
+    font-family: monospace;
     background-color: var(--cool-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: 
 }
 
 img {
