@@ -4,6 +4,10 @@
     --cool-pink:rgb(255, 62, 191);
 }
 
+a {
+    cursor: pointer;
+}
+
 .header-main {
     font-family: monospace;
     background-color: var(--nothing);
