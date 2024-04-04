@@ -1,6 +1,6 @@
 :root {
     --nothing: rgb(0, 0, 0);
-    --cool-blue: rgb(49, 138, 240);
+    --cool-blue: rgb(133, 186, 247);
     --cool-pink:rgb(255, 62, 191);
 }
 
@@ -23,4 +23,12 @@
 nav ul li {
     display: inline;
     margin: 50px;
+}
+
+.body-main {
+    background-color: var(--cool-blue);
+}
+
+img {
+    height: 200px;
 }
