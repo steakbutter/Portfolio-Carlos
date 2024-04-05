@@ -117,7 +117,7 @@ div img {
     width: 40vh;
     background-color: var(--nothing);
     padding-bottom: 6vh;
-
+;
 
 }
 h3 {
@@ -128,6 +128,7 @@ h3 {
     text-align: left;
     margin-top: 20px;
     margin-right: 2000px;
+    margin-left: 5vh;
 }
 p {
     color: var(--nothing);
@@ -146,11 +147,11 @@ p {
 
 }
 .images-work {
+    display: flex;
     background-color: var(--cool-blue);
     padding-top: 4vh;
-    padding-bottom: 6vh;
+    padding-bottom: 63vh;
     
-
 }
 
 
@@ -167,6 +168,7 @@ p {
  }
 
  .contact-me {
+    display: flex;
     height: 25vh;
     background-color: var(--nothing);
  }
