@@ -1,3 +1,6 @@
+* {
+    /* background-color: var(--nothing);  */
+}
 :root {
     --nothing: rgb(0, 0, 0);
     --cool-blue: rgb(133, 186, 247);
@@ -32,7 +35,7 @@ h1 {
 }
 .header .h1{
     display: flex;
-    
+
 }
 .nav-bar {
     background-color: var(--nothing);
@@ -41,7 +44,7 @@ h1 {
     justify-content: center;
 }
 nav ul li {
-    
+
     display: inline;
     margin: 50px;
 }
@@ -57,6 +60,7 @@ nav a:hover {
     justify-content: space-evenly;
 
 
+
 }
 
 
@@ -65,24 +69,27 @@ h2 {
     color: var(--nothing);
     text-align: center;
     margin-top: 20px;
+
 }
-img {
+div img {
     height: 50vh;
 }
 .flex-box {
     display: flex;
+    flex-direction: row;
 
 }
 .body-main-1 {
     font-family: monospace;
-    height: 200vh;
+    height: 135vh;
     width: 40vh;
     background-color: var(--nothing);
- 
+
+
 }
 h3 {
     width: 30vh;
-    height: 40vh;
+    height: 45vh;
     font-size: 25px;
     color: var(--cool-blue);
     text-align: left;
@@ -95,19 +102,38 @@ p {
     margin: 5px 15px 15px 15px;
 }
 
-.body-main-2 {
-    
+.body-main-am {
+    display: flex;
+    flex-direction: column;
     font-family: monospace;
     background-color: var(--cool-blue);
-   
+    padding-top: 5vh;
+    height: 55vh;
 
 }
+.images-work {
+    background-color: var(--cool-blue);
+    padding-top: 8vh;
+    
+
+}
+
 
 
 .body-main-work {
+    display: flex;
+    flex-direction: initial;
+    height: 55vh;
+    width: 75vh;
 
 }
+ img {
+    height: 40vh;
+ }
 
+ .contact-me {
+    background-color: var(--nothing);
+ }
 h4 {
     font-size: 50px;
     text-align: center;
