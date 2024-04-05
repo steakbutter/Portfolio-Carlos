@@ -26,6 +26,7 @@ a {
         display: flex;
         flex-direction:column;
         flex-wrap: wrap;
+        margin-left: 28vh;
     
     }
     main {
@@ -61,6 +62,7 @@ a {
     align-items: center;
 }
 h1 {
+    margin-top: 5vh;
     font-size: 40px;
 }
 .header .h1{
@@ -98,7 +100,7 @@ h2 {
     font-size: 50px;
     color: var(--nothing);
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15vh;
 
 }
 div img {
@@ -169,7 +171,7 @@ p {
 
  .contact-me {
     display: flex;
-    height: 25vh;
+    height: 30vh;
     background-color: var(--nothing);
  }
 h4 {
