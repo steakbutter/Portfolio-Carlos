@@ -33,15 +33,11 @@ a {
         display: flex;
         flex-wrap: wrap;
     }
-    aside {
+    aside p {
         display: flex;
         flex-wrap: wrap;
     }
-    p{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
+    
     article {
         display: flex;
         flex-wrap: wrap;
