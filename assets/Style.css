@@ -7,6 +7,15 @@
     --cool-pink:rgb(197, 73, 255);
     --everything: rgb(250, 250, 250);
 }
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 a {
     cursor: pointer;
@@ -15,7 +24,7 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-    header, aside, nav, article, main, footer {
+    header, aside, nav, article, main {
         flex-direction: column;
     }
     h3 {
@@ -52,10 +61,7 @@ a {
     }
     
         
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-    }
+
 }
 
 .header-main {
@@ -82,7 +88,7 @@ h1 {
     background-color: var(--nothing);
     display: flex;
     font-family: monospace;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
 }
 nav ul li {
@@ -156,16 +162,16 @@ p {
     font-family: monospace;
     background-color: var(--cool-blue);
     padding-top: 5vh;
+    padding-bottom: 5vh;
     height: 55vh;
     text-align: center;
     
 
 }
 .images-work {
-    display: inline-block;
     background-color: var(--cool-blue);
-    padding-top: 4vh;
-    padding-bottom: 63vh;
+    /* padding-top: 4vh; */
+    /* padding-bottom: 63vh; */
     
 }
 
@@ -180,14 +186,21 @@ p {
  figure img {
     height: 45vh;
  }
-
+footer {
+    background-color: var(--nothing);
+    display: flex;
+    flex-direction: column;
+   
+}
  .contact-me {
+    margin-bottom: 200vh;
     display: flex;
     height: 100%;
     width: 100%;
     background-color: var(--nothing);
  }
 h4 {
+    padding-bottom: 3vh;
     font-size: 25px;
     color: var(--nothing)
     margin-top: 20px;
