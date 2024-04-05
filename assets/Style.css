@@ -49,8 +49,10 @@ nav a:hover {
     flex-direction: row;
     justify-content: space-evenly;
 
-  
+
 }
+
+
 h2 {
     font-size: 50px;
     color: var(--nothing);
@@ -58,7 +60,7 @@ h2 {
     margin-top: 20px;
 }
 img {
-    height: 200px;
+    height: 50vh;
 }
 
 .body-main-2 {
@@ -80,3 +82,21 @@ p {
     font-size: 20px;
     margin: 5px 15px 15px 15px;
 }
+
+.body-main-3 {
+    font-family: monospace;
+    background-color: var(--cool-blue);
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+
+}
+.body-main-work {
+
+}
+
+h4 {
+    font-size: 50px;
+    text-align: center;
+}
+
