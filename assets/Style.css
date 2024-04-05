@@ -183,6 +183,11 @@ p {
     width: 100%;
 
 }
+figure img:hover {
+    height: 70vh;
+    cursor: pointer;
+
+}
  figure img {
     height: 45vh;
  }
