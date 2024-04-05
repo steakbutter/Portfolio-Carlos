@@ -18,6 +18,10 @@ a {
     header, aside, nav, article, main, footer {
         flex-direction: column;
     }
+    h3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     header {
         display: flex;
         flex-wrap: wrap;
@@ -26,7 +30,7 @@ a {
         display: flex;
         flex-direction:column;
         flex-wrap: wrap;
-        margin-left: 40vh;
+        /* margin-left: 40vh; */
     
     }
     main {
@@ -34,6 +38,10 @@ a {
         flex-wrap: wrap;
     }
     aside p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section figure {
         display: flex;
         flex-wrap: wrap;
     }
@@ -75,11 +83,12 @@ h1 {
     display: flex;
     font-family: monospace;
     justify-content: center;
+    text-align: center;
 }
 nav ul li {
 
     display: inline;
-    margin: 50px;
+    margin: 20px;
 }
 nav a:hover {
     color: var(--cool-pink);
@@ -120,17 +129,19 @@ div img {
     width: 100%;
     background-color: var(--nothing);
     padding-bottom: 6vh;
-;
+    text-align: center;
 
 }
+
 h3 {
-    width: 30vh;
+    width: 100%;
     font-size: 25px;
     color: var(--cool-blue);
     text-align: center;
     margin-top: 20px;
-    margin-right: 2000px;
-    margin-left: 80vh;
+    /* margin-right: 2000px; */
+    /* margin-left: 80vh; */
+    justify-content: center;
 }
 p {
     color: var(--cool-blue);
@@ -146,6 +157,7 @@ p {
     background-color: var(--cool-blue);
     padding-top: 5vh;
     height: 55vh;
+    text-align: center;
     
 
 }
@@ -176,11 +188,8 @@ p {
     background-color: var(--nothing);
  }
 h4 {
-    width: 30vh;
     font-size: 25px;
     color: var(--nothing)
     margin-top: 20px;
-    margin-right: 2000px;
-    margin-left: 80vh;
 }
 
