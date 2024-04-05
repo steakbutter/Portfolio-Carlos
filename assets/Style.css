@@ -1,7 +1,8 @@
 :root {
     --nothing: rgb(0, 0, 0);
     --cool-blue: rgb(133, 186, 247);
-    --cool-pink:rgb(255, 62, 191);
+    --cool-pink:rgb(197, 73, 255);
+    --everything: rgb(250, 250, 250);
 }
 
 a {
@@ -9,7 +10,11 @@ a {
     color: var(--cool-blue);
     font-size: 17px;
 }
-
+@media screen and (max-width: 768px) {
+    .header, nav{
+        flex-wrap: row;
+    }
+}
 .header-main {
     font-family: monospace;
     background-color: var(--nothing);
@@ -21,6 +26,9 @@ a {
     justify-content: space-between;
     align-content:row;
     align-items: center;
+}
+h1 {
+    font-size: 60px;
 }
 .header .h1{
     display: flex;
@@ -51,4 +59,24 @@ h2 {
 }
 img {
     height: 200px;
+}
+
+.body-main-2 {
+    font-family: monospace;
+    height: 200px;
+    background-color: var(--nothing);
+    display: flex;
+    flex-direction: column;
+ 
+}
+h3 {
+    font-size: 50px;
+    color: var(--cool-blue);
+    text-align: center;
+    margin-top: 20px;
+}
+p {
+    color: var(--cool-blue);
+    font-size: 20px;
+    margin: 5px 15px 15px 15px;
 }
