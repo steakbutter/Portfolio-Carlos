@@ -13,11 +13,41 @@ a {
     color: var(--cool-blue);
     font-size: 17px;
 }
+
 @media screen and (max-width: 768px) {
-    .header, nav{
-        flex-wrap: row;
+    header, aside, nav, article, main, footer {
+        flex-direction: column;
+    }
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav ul {
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+    
+    }
+    main {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    aside {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    article {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+        
+    footer {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
+
 .header-main {
     font-family: monospace;
     background-color: var(--nothing);
@@ -77,13 +107,16 @@ div img {
 .flex-box {
     display: flex;
     flex-direction: row;
+    
+
 
 }
 .body-main-1 {
     font-family: monospace;
-    height: 135vh;
+    height: 140vh;
     width: 40vh;
     background-color: var(--nothing);
+    padding-bottom: 6vh;
 
 
 }
@@ -109,11 +142,13 @@ p {
     background-color: var(--cool-blue);
     padding-top: 5vh;
     height: 55vh;
+    
 
 }
 .images-work {
     background-color: var(--cool-blue);
-    padding-top: 8vh;
+    padding-top: 4vh;
+    padding-bottom: 6vh;
     
 
 }
@@ -127,11 +162,12 @@ p {
     width: 75vh;
 
 }
- img {
+ figure img {
     height: 40vh;
  }
 
  .contact-me {
+    height: 25vh;
     background-color: var(--nothing);
  }
 h4 {
