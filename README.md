@@ -2,7 +2,7 @@
 
 ## Description
 
-Building my coding portfolio from scratch helped me apply the HTML and CSS knowledge I have acquired in the previous month. This website opens the door for my future portfolio and projects. I learned that understanding parenting in the coding structure will help the website and code be more clear for future modifications.  
+Building my coding portfolio from scratch helped me apply the HTML and CSS knowledge I have acquired in the previous month. This website works as a host for my future projects and collaborations. I learned the importance of understanding parenting in the coding structure. This will help the website and code be more clear for future updates.  
 
 
 ## Installation
