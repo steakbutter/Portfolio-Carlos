@@ -12,6 +12,8 @@ N/A.
 ## Usage
 
 ![alt text](<images/Website Portfolio Carlos preview.jpg>)
+![alt text](<images/website responsiveness portfolio.jpg>)
+
 
 ## Credits
 Link to youtube video that helped me with navigation bar and header. 
