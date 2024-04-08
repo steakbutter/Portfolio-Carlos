@@ -11,7 +11,7 @@ N/A.
 
 ## Usage
 
-N/A.
+![alt text](<images/Website Portfolio Carlos preview.jpg>)
 
 ## Credits
 Link to youtube video that helped me with navigation bar and header. 
