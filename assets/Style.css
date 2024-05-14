@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 /* This helps add some color and style to the anchor links in the navigation bar.   */
 a {
     cursor: pointer;
@@ -129,6 +130,8 @@ div img {
 .flex-box {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    height: 100%;
     
 
 
@@ -191,9 +194,6 @@ p {
 
 }
 
- figure img {
-    height: 45vh;
- }
 footer {
     background-color: var(--nothing);
     display: flex;
@@ -247,4 +247,21 @@ h5 {
 .modderimg {
     transform: scale(1.1, 1.1);
     
+}
+
+.imagesFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 40%;
+}
+
+.footero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleText {
+    font-size: 50px;
 }
